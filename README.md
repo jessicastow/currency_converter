@@ -31,3 +31,8 @@ My code made use of the following variables and arguments:
 - `again`: Asks the user whether they would like to do another conversion. 
 
 ### Notes
+
+
+1. Add a 'list_of_currencies' - list of accepted currencies for the API, if inputs don't match this list print error "invalid currency"
+
+2. Code not working for historical dates? Fix this issue...
