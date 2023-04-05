@@ -18,6 +18,8 @@ I used the https://fixer.io/ API for currency conversion, it has access to infor
 
 ### My solution, explained
 
+My code made use of the following variables and arguments:
+
 - `from_currency`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
 - `to_currency`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
 - `amount`: The amount the user would like to convert
