@@ -6,6 +6,6 @@ This code was written to fulfill the need at Bilou Beach Villas for a currency c
 The guests at Bilou Beach Villas come from all corners of the globe and thus the owners receive online payments via TransferWise in multiple different currencies. 
 The quotes are given in USD, so the received currency needs to be converted to USD to keep an accurate account of the amounts still owed.
 This is a challenge because the exchange rates are constantly fluctuating. 
-The owner uses online tables to convert currencies for historical dates, however, this is an inefficient method of conversion. 
+The owner uses online tables to convert currencies for historical dates, however, this is an inefficient method of currency conversion. 
 
 In order to save time, I developed a [python script](https://github.com/jessicastow/currency_converter/blob/main/currency_converter_v1.py) to convert between currencies. 
