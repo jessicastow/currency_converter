@@ -18,14 +18,14 @@ I used the https://fixer.io/ API for currency conversion, it has access to infor
 
 ### My solution, explained
 
-`from_currency`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
-`to_currency`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
-`amount`: The amount the user would like to convert
-`date`: The date the user would like the conversion for.
-`today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
-`URL`: 
-`response`:
-`rate`:
-`again`: Asks the user whether they would like to do another conversion. 
+- `from_currency`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
+- `to_currency`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
+- `amount`: The amount the user would like to convert
+- `date`: The date the user would like the conversion for.
+- `today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
+- `URL`: 
+- `response`:
+- `rate`:
+- `again`: Asks the user whether they would like to do another conversion. 
 
 ### Notes
