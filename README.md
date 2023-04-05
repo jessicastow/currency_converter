@@ -2,7 +2,7 @@
 
 This code was written to fulfill the need at [Bilou Beach Villas](https://www.biloubeach.com/) for a currency converter.
 
-### 🤔 The problem
+### The problem
 The guests at Bilou Beach Villas come from all corners of the globe and thus the owners receive online payments via TransferWise in multiple different  currencies. 
 The quotes are given to the guests in USD, so the received currency needs to be converted to USD to keep an accurate account of the amounts still owed.
 This is a challenge because the exchange rates are constantly fluctuating. 
