@@ -20,19 +20,15 @@ I used the https://fixer.io/ API for currency conversion, it has access to infor
 
 My code made use of the following variables and arguments:
 
-- `from_currency`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
-- `to_currency`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
+- `base`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
+- `target`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
 - `amount`: The amount the user would like to convert
 - `date`: The date the user would like the conversion for.
 - `today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
-- `URL`: 
-- `response`:
-- `rate`:
+- `output`: The amount of the target currency. Calculated by multiplying the the input (base) amount and the rate of the target currency. 
 - `again`: Asks the user whether they would like to do another conversion. If the user answers 'yes' then the script is run again, any other response will end the program. 
 
 ### Notes
 
 
 1. Add a 'list_of_currencies' - list of accepted currencies for the API, if inputs don't match this list print error "invalid currency"
-
-2. Code not working for historical dates? Fix this issue...
