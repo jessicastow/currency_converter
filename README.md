@@ -28,7 +28,7 @@ My code made use of the following variables and arguments:
 - `URL`: 
 - `response`:
 - `rate`:
-- `again`: Asks the user whether they would like to do another conversion. 
+- `again`: Asks the user whether they would like to do another conversion. If the user answers 'yes' then the script is run again, any other response will end the program. 
 
 ### Notes
 
