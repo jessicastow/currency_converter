@@ -11,7 +11,7 @@ The owner uses online tables to convert currencies for historical payment dates.
 In order to save time, I developed a [python script](https://github.com/jessicastow/currency_converter/blob/main/currency_converter_v1.py) to convert between currencies on the date of payment using historical data, using the [Fixer.io API](https://fixer.io/). 
 
 ### 💡 Source
-This code was inspired by [Turtle Code's video "Make Currency App - Python API](https://www.youtube.com/watch?v=isx6SpxZ4y0), I used his code as a base and improved on it. 
+This code was inspired by [Turtle Code's video "Make Currency App - Python API](https://www.youtube.com/watch?v=isx6SpxZ4y0).
 
 ### 🌐 API
 I used the https://fixer.io/ API for currency conversion, it has access to information about 170 currencies and their exchange rates. 
