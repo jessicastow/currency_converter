@@ -32,4 +32,4 @@ My code made use of the following variables and arguments:
 ### Notes
 
 
-1. Add a 'list_of_currencies' - list of accepted currencies for the API, if inputs don't match this list print error "invalid currency"
+1. Add a `list_of_currencies` - list of accepted currencies for the API, if `base` or `target` inputs don't match this list print error "Invalid currency"
