@@ -5,7 +5,7 @@ print('This program converts currencies on your date of choice.')
 def currency_converter():
     base = str(input("Currency you'd like to convert from:")).upper().strip()
     target   = str(input("Currency you'd like to convert to:")).upper().strip()
-    amount = int(input("Amount you'd like to convert:"))
+    amount = float(input("Amount you'd like to convert:"))
 
     date = None
     today = str(input("Would you like to use today's conversion rate?")).lower().strip()
