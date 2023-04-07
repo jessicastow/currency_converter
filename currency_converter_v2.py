@@ -46,5 +46,3 @@ currency_converter()
 
 # Add a 'list_of_currencies' - list of accepted currencies for the API,
 # if inputs don't match this list print error "invalid currency"
-
-# code not working for historical dates?
