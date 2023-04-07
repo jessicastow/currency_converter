@@ -21,7 +21,8 @@ I used the https://fixer.io/ API for currency conversion, it has access to infor
 My code made use of the following variables and arguments:
 
 - `base`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
-- `target`: Currency we are wanting to convert to (output). The user will be asked to enter their currency. 
+- `target`: Currency we are wanting to convert to (output). The user will be asked to enter their currency.
+- Note: for `base` and `target` currencies, these need to be the three letter abbreviation for the currency, e.g. South African Rands are abbreaviated as 'ZAR'. The list of abbreviations for currencies can be found [here](https://www.countries-ofthe-world.com/world-currencies.html).
 - `amount`: The amount the user would like to convert
 - `date`: The date the user would like the conversion for.
 - `today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
