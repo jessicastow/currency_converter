@@ -16,6 +16,9 @@ This code was inspired by [Turtle Code's video "Make Currency App - Python API"]
 ### 🌐 API
 I used the https://fixer.io/ API for currency conversion, it has access to information about 170 currencies and their exchange rates. 
 
+### Run
+Click on this [link](https://trinket.io/python3/9aeeb653f0?outputOnly=true&runOption=run) to try out this program
+
 ### My solution, explained
 
 My code made use of the following variables and arguments:
