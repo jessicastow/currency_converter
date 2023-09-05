@@ -25,14 +25,14 @@ My code made use of the following variables and arguments:
 
 - `base`: Currency we are wanting to convert from (input). The user will be asked to enter their currency. 
 - `target`: Currency we are wanting to convert to (output). The user will be asked to enter their currency.
-- Note: for `base` and `target` currencies, these need to be the three letter abbreviation for the currency, e.g. South African Rands are abbreaviated as 'ZAR'. The list of abbreviations for currencies can be found [here](https://www.countries-ofthe-world.com/world-currencies.html).
-- `amount`: The amount the user would like to convert
-- `date`: The date the user would like the conversion for.
+- Note: for `base` and `target` currencies, these need to be the three letter ISO currency code, e.g. South African Rands are abbreviated as 'ZAR'. The list of abbreviations for currencies can be found [here](https://www.countries-ofthe-world.com/world-currencies.html).
+- `amount`: The amount the user would like to convert.
+- `date`: The date the user would like the conversion for (in the format yyyy-mm-dd).
 - `today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
 - `output`: The amount of the target currency. Calculated by multiplying the the input (base) amount and the rate of the target currency. 
 - `again`: Asks the user whether they would like to do another conversion. If the user answers 'yes' then the script is run again, any other response will end the program. 
 
-### Notes
+### Notes/Updates to do...
 
 
 1. Add a `list_of_currencies` - list of accepted currencies for the API, if `base` or `target` inputs don't match this list print error "Invalid currency"
