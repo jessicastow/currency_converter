@@ -16,7 +16,7 @@ This code was inspired by [Turtle Code's video "Make Currency App - Python API"]
 ### 🌐 API
 I used the https://fixer.io/ API for currency conversion, it has access to information about 170 currencies and their exchange rates. 
 
-### Run
+### 🏃‍♀️ Run
 Click on this [link](https://trinket.io/python3/9aeeb653f0?outputOnly=true&runOption=run) to try out the program. (Please note this will only work on a desktop computer).
 
 ### My solution, explained
@@ -31,6 +31,8 @@ My code made use of the following variables and arguments:
 - `today`: argument to see whether the user would like the most recent (today/latest) conversion or if they want to use historical information. 
 - `output`: The amount of the target currency. Calculated by multiplying the the input (base) amount and the rate of the target currency. 
 - `again`: Asks the user whether they would like to do another conversion. If the user answers 'yes' then the script is run again, any other response will end the program. 
+
+Any feedback on my solution is welcome! Email me: stowjess@gmail.com
 
 ### Notes/Updates to do...
 
